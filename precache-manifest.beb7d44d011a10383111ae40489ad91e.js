@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "60089d6a176bbba8a6cf0c5e821a529b",
+    "revision": "a4d5dacc5b1f5073e67fdf86ac77c299",
     "url": "/headhunter/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/headhunter/static/css/2.4c4477be.chunk.css"
   },
   {
-    "revision": "7d3bc421b5b106959b44",
-    "url": "/headhunter/static/css/main.f4fd829c.chunk.css"
+    "revision": "46782323ca815df6c44a",
+    "url": "/headhunter/static/css/main.cdd01af2.chunk.css"
   },
   {
     "revision": "cb40fcb76895eb6774b2",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/headhunter/static/js/2.b9dbee60.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7d3bc421b5b106959b44",
-    "url": "/headhunter/static/js/main.db0dad2f.chunk.js"
+    "revision": "46782323ca815df6c44a",
+    "url": "/headhunter/static/js/main.58ab37ac.chunk.js"
   },
   {
     "revision": "9f0e8aa01dc42e10a5f2",
