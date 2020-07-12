@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* В модалке вакансии убираем отступы( приходит html с сервера) */
+.sc-fzplWN * {
+  margin: 0;
+}
