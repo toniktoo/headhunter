@@ -115,7 +115,6 @@ export const ModalSearch = () => {
   }, [currentPage]);
 
   const handleSubmit = async () => {
-    setTextValue('');
     dispatch(setFirstLoaded({ firstLoadedApp: true }));
     await fetchSnippetVacancies(textValue, city.areaId);
     await toggleSettings();
