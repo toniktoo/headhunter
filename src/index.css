@@ -14,6 +14,6 @@ code {
 
 /* В модалке вакансии убираем отступы( приходит html с сервера) */
 .sc-fzplWN * {
-  font-size: 12px;
+  font-size: 10px;
   margin: 0;
 }

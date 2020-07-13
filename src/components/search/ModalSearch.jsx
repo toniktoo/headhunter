@@ -73,11 +73,11 @@ export const ModalSearch = () => {
       case 1:
         return '';
       case 2:
-        return 'noExperience';
+        return '&experience=noExperience';
       case 3:
-        return 'between1And3';
+        return '&experience=between1And3';
       case 4:
-        return 'between3And6';
+        return '&experience=between3And6';
       default:
         return '';
     }
@@ -111,7 +111,7 @@ export const ModalSearch = () => {
   useEffect(() => {
     if (firstLoadedApp) {
       fetchSnippetVacancies(textValue, city.areaId);
-    } 
+    }
   }, [currentPage]);
 
   const handleSubmit = async () => {
