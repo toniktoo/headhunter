@@ -111,11 +111,10 @@ export const ModalSearch = () => {
   useEffect(() => {
     if (firstLoadedApp) {
       fetchSnippetVacancies(textValue, city.areaId);
-    }
+    } 
   }, [currentPage]);
 
   const handleSubmit = async () => {
-    setTextValue('');
     dispatch(setFirstLoaded({ firstLoadedApp: true }));
     await fetchSnippetVacancies(textValue, city.areaId);
     await toggleSettings();

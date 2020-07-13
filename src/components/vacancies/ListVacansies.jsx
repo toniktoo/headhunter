@@ -40,6 +40,9 @@ const SubLinkWrapper = styled.div`
   align-items: space-between;
   justify-content: center;
   width: 260px;
+  @media (max-width: 1400px) {
+    width: 220px;
+  }
 `;
 
 const CompanyLink = styled.a`

@@ -12,7 +12,7 @@ const Wrapper = styled.div`
   display: -webkit-box; /* Включаем флексбоксы */
   -webkit-box-orient: vertical; /* Вертикальная ориентация */
   overflow: hidden; /* Обрезаем всё за пределами блока */
-  max-height: 700px;
+  max-height: 70%;
   border: 1px solid #000;
   margin-right: 16px;
 `;
